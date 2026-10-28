@@ -1,7 +1,7 @@
 {
   "title": "Ryu-based SDN firewall: policy management framework, measurement scripts and data",
   "upload_type": "software",
-  "description": "Reimplementation of a Ryu 4.34 firewall for SDN (REST administration with HTTP Basic authentication, JSON persistence, threshold-based detection) together with the Mininet measurement scripts (E1-E6), raw CSV data and analysis code used in the article submitted to the Journal of Network and Systems Management.",
+  "description": "Reimplementation of a Ryu 4.34 firewall for SDN (REST administration with HTTP Basic authentication, JSON persistence, threshold-based detection) together with the Mininet measurement scripts (E1-E6 and the diagnostic experiments E1b and E1c), raw CSV data and analysis code used in the article submitted to the Journal of Network and Systems Management.",
   "creators": [
     {
       "name": "Revueltas-Correa, Cristian",
