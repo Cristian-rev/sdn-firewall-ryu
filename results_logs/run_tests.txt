@@ -1,0 +1,17 @@
+================================================================
+SUITE DE PRUEBAS - FIREWALL SDN & DASHBOARD
+================================================================
+Health check (/fw/health).............................. PASS
+Auth protection (401 on invalid credentials)........... PASS
+Manual blocking of an IP............................... PASS
+Idempotent blocking.................................... PASS
+Consistency: IP appears in /rules...................... PASS
+Manual unblocking of an IP............................. PASS
+Consistency: IP removed from /rules.................... PASS
+404 when unblocking a non-blocked IP................... PASS
+Structure of metrics and thresholds.................... PASS
+OpenFlow statistics endpoint........................... PASS
+Dashboard HTML and proxy............................... PASS
+Cleanup of test IP..................................... PASS
+================================================================
+RESULTADO FINAL: 12 PASSED | 0 FAILED

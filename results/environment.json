@@ -1,0 +1,15 @@
+{
+  "fecha": "2026-10-27T22:07:23.850778",
+  "os": "Ubuntu 24.04.5 LTS",
+  "kernel": "6.18.44-fc-v180",
+  "python": "3.13.18",
+  "ryu": "ryu-manager 4.34",
+  "mininet": "2.3.0",
+  "ovs": "ovs-vsctl (Open vSwitch) 3.3.9",
+  "iperf3": "iperf 3.16 (cJSON 1.7.15)",
+  "hping3": "hping3 version 3.0.0-alpha-2 ($Id: release.h,v 1.4 2004/04/09 23:38:56 antirez Exp $)",
+  "nmap": "Nmap version 7.94SVN ( https://nmap.org )",
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+  "nucleos": "2",
+  "ram_total": "7.8Gi"
+}

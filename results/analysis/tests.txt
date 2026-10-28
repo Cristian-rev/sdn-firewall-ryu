@@ -1,0 +1,12 @@
+E1 t_flow_ms (bloqueo) por numero de hosts: Kruskal-Wallis H=7.57, p=0.05575
+E2 rtt_avg_ms baseline vs firewall_empty: U=543.5, p=0.169, p_Holm=0.169, rank-biserial=-0.208
+E2 rtt_avg_ms firewall_empty vs firewall_rules: U=274.5, p=0.009648, p_Holm=0.0193, rank-biserial=0.390
+E2 rtt_avg_ms firewall_empty vs firewall_mirror: U=3.0, p=4.06e-11, p_Holm=1.218e-10, rank-biserial=0.993
+E2 tcp_mbps baseline vs firewall_empty: U=895.0, p=4.975e-11, p_Holm=9.95e-11, rank-biserial=-0.989
+E2 tcp_mbps firewall_empty vs firewall_rules: U=446.0, p=0.9587, p_Holm=0.9587, rank-biserial=0.009
+E2 tcp_mbps firewall_empty vs firewall_mirror: U=900.0, p=3.02e-11, p_Holm=9.06e-11, rank-biserial=-1.000
+E2 udp_jitter_ms baseline vs firewall_empty: U=489.0, p=0.5692, p_Holm=1, rank-biserial=-0.087
+E2 udp_jitter_ms firewall_empty vs firewall_rules: U=459.0, p=0.9, p_Holm=1, rank-biserial=-0.020
+E2 udp_jitter_ms firewall_empty vs firewall_mirror: U=463.0, p=0.8534, p_Holm=1, rank-biserial=-0.029
+E3 t_flow_ms por numero de reglas: Kruskal-Wallis H=363.58, p=2.089e-76
+E4 latencia auth vs noauth: U=580001.0, p=5.818e-10

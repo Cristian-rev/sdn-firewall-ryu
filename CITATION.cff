@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Ryu-based SDN firewall: policy management framework, measurement scripts and data"
+version: 1.0.0
+date-released: 2026-10-28
+license: MIT
+authors:
+  - family-names: Revueltas-Correa
+    given-names: Cristian
+    orcid: "https://orcid.org/0000-0001-6141-9815"
+    affiliation: "Universidad de Córdoba, Colombia"
+keywords: [software-defined networking, firewall, Ryu, OpenFlow, Mininet, network management]

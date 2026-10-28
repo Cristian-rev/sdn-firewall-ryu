@@ -1,0 +1,4 @@
+credential,status,count
+invalid,401,150
+none,401,150
+valid,200,150

@@ -1,0 +1,79 @@
+[18:07:41] Fase A: E1, E3, E4(auth) y suite funcional
+[18:07:44] tests
+[18:07:44] e1_h3
+[18:11:55] e1_h10
+[18:16:05] e1_h20
+[18:20:16] e1_h40
+[18:24:27] e3_h3
+[18:25:28] e3_h10
+[18:26:29] e3_h20
+[18:27:29] e3_h40
+[18:28:36] e4_auth
+[18:29:37] Fase B: E4(noauth)
+[18:29:38] e4_noauth
+[18:29:39] Fase C: E2
+[18:29:42] e2_baseline
+[18:38:25] e2_empty
+[18:47:04] e2_rules
+[19:05:10] Fase A: E1, E3, E4(auth) y suite funcional
+[19:05:13] Fase A: E1, E3, E4(auth) y suite funcional
+[19:05:18] Fase B: E4(noauth)
+[19:05:18] Fase B: E4(noauth)
+[19:05:19] Fase C: E2
+[19:05:24] Fase C: E2
+[19:05:24] e2_rules
+[19:05:28] e2_rules
+[19:05:58] Fase A: E1, E3, E4(auth) y suite funcional
+[19:06:02] Fase B: E4(noauth)
+[19:06:03] Fase C: E2
+[19:06:07] e2_rules
+[19:14:50] e2_mirror
+[19:23:17] Fase D: E5
+[19:23:18] e5_benign_ping
+[19:31:51] e5_benign_bulk
+[19:40:27] e5_dos_10
+[19:49:33] e5_scan_10
+[19:51:32] e5_dos_100
+[20:00:38] e5_scan_100
+[20:02:18] e5_dos_500
+[20:04:55] e5_scan_500
+[20:07:36] Fase E: E6
+[20:07:37] e6_k1
+[20:08:17] e6_k10
+[20:08:58] e6_k100
+[20:09:40] Analisis
+[20:09:43] Campana terminada
+[20:26:01] Fase A: E1, E3, E3b, E4(auth) y suite funcional
+[20:26:05] tests
+[20:26:05] e1_h3
+[20:30:16] e1_h10
+[20:34:27] e1_h20
+[20:38:37] e1_h40
+[20:42:48] e3_h3
+[20:43:52] e3_h10
+[20:44:57] e3_h20
+[20:46:02] e3_h40
+[20:47:09] e3b
+[20:47:30] e4_auth
+[20:48:32] Fase B: E4(noauth)
+[20:48:34] e4_noauth
+[20:48:35] Fase C: E2
+[20:48:38] e2_baseline
+[20:57:22] e2_empty
+[21:05:55] e2_rules
+[21:14:39] e2_mirror
+[21:23:08] Fase D: E5
+[21:23:10] e5_benign_ping
+[21:31:46] e5_benign_bulk
+[21:40:22] e5_dos_10
+[21:49:28] e5_scan_10
+[21:51:27] e5_dos_100
+[22:00:18] e5_scan_100
+[22:01:58] e5_dos_500
+[22:04:06] e5_scan_500
+[22:06:01] Fase E: E6
+[22:06:02] e6_k1
+[22:06:42] e6_k10
+[22:07:23] e6_k100
+[22:08:05] Analisis
+[22:08:08] Campana terminada
