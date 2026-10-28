@@ -1,0 +1,2 @@
+Resultados guardados en /home/claude/sdn_experiments/results/e1b_unblock_diag_20261028_170321.csv
+DONE

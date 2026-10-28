@@ -1,0 +1,3 @@
+2 packets transmitted, 2 received, 0% packet loss, time 1021ms
+libre     ['993 packets transmitted, 993 received, 0% packet loss, time 2000ms']
+bloqueado ['195 packets transmitted, 0 received, 100% packet loss, time 1992ms']

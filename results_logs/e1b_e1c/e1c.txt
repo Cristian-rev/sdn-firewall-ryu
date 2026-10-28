@@ -1,0 +1,2 @@
+Resultados guardados en /home/claude/sdn_experiments/results/e1c_oneway_20261028_165651.csv
+DONE

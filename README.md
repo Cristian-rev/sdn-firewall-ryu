@@ -49,10 +49,14 @@ sudo FW_PASS='su_clave' RYU_BIN=/opt/ryuenv/bin/ryu-manager REPS=30 bash run_cam
 | Exp. | RQ | Qué mide |
 |---|---|---|
 | E1 | RQ1 | Latencia orden REST → regla en el switch → efecto en el tráfico (sonda ICMP cada 2 ms) |
+| E1b | RQ1 | Diagnóstico de la asimetría bloqueo/desbloqueo: E1 con y sin sondeo de la tabla, con caché vaciada y con reglas puestas sin Ryu (`exp1b_unblock_diagnosis.py`) |
+| E1c | RQ1 | E1 con sonda de tasa fija (hping3 cada 1 ms) y captura en el destino (`exp1c_oneway_probe.py`) |
 | E2 | RQ2 | RTT, pérdida y throughput: `simple_switch_13`, firewall vacío, firewall con 100 reglas, firewall con copia al controlador |
 | E3 | RQ3 | Escalabilidad según el número de hosts (3–40) y de reglas (1–500), y CPU de Ryu por ciclo |
 | E4 | RQ4 | Códigos HTTP por tipo de credencial y latencia con y sin autenticación |
 | E5 | RQ5 | Detección: tráfico benigno ligero y masivo, DoS ICMP y escaneo SYN a 10, 100 y 500 paquetes/s |
 | E6 | RQ6 | Restauración de la política tras reiniciar Ryu con la tabla del switch vaciada |
+
+E1b y E1c no forman parte de `run_campaign.sh`; se corren aparte con Ryu en marcha (`FW_MIRROR=0 FW_DETECT=0`). `ping_rate_check.py` muestra que `ping -i 0.002` baja a ~1 paquete cada 10 ms cuando no recibe respuestas.
 
 Al terminar, `results/analysis/` contiene `summary_*.csv`, `tests.txt` y las figuras a 300 dpi. `results/environment.json` guarda las versiones y los recursos del equipo.
