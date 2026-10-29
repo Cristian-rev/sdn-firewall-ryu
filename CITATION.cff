@@ -9,4 +9,12 @@ authors:
     given-names: Cristian
     orcid: "https://orcid.org/0000-0001-6141-9815"
     affiliation: "Universidad de Córdoba, Colombia"
+  - family-names: Macea Anaya
+    given-names: Mario
+    orcid: "https://orcid.org/0000-0002-4662-7103"
+    affiliation: "Universidad de Córdoba, Colombia"
+  - family-names: Castaño Rivera
+    given-names: Samir Oswaldo
+    orcid: "https://orcid.org/0000-0003-3302-3439"
+    affiliation: "Universidad de Córdoba, Colombia"
 keywords: [software-defined networking, firewall, Ryu, OpenFlow, Mininet, network management]
